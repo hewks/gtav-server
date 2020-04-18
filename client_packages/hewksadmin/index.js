@@ -1,10 +1,7 @@
 const NativeUI = require("nativeui");
 const Menu = NativeUI.Menu;
 const UIMenuItem = NativeUI.UIMenuItem;
-const UIMenuListItem = NativeUI.UIMenuListItem;
 const Point = NativeUI.Point;
-const ItemsCollection = NativeUI.ItemsCollection;
-
 mp.gui.cursor.visibility = false;
 mp.gui.chat.show(false);
 
