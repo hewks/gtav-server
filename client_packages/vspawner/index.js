@@ -102,4 +102,5 @@ mp.keys.bind(0x73, false, () => {
   } else {
     mainMenu.Visible = !mainMenu.Visible;
   }
+  console.log("Cara culo");
 });
