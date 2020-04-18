@@ -22,7 +22,7 @@ ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
     switch (item.Text) {
       case actions[0].text:
-        console.log("Add money");
+        console.log("Add 2500");
         mp.events.callRemote("hewks_addMoney", "sebas", 2500);
         break;
 
