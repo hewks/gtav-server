@@ -28,5 +28,6 @@ mp.events.add("vspawner_Spawn", (player, vehicle) => {
       dimension: player.dimension,
     });
   }
+  console.log("cara culo");
   //player.putIntoVehicle(player.vspawner_Vehicle, 0);
 });
