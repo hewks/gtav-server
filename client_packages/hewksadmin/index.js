@@ -21,11 +21,11 @@ actions.forEach((action, index) => {
   ui.AddItem(new UIMenuItem(action.text));
 });
 
-ui.ItemSelect.on((item) => {
+ui.ItemSelect.on((item, index) => {
   if (item instanceof UIMenuItem) {
     switch (item.Text) {
       case actions[0].text:
-        console.log(item);
+        console.log(index);
         mp.events.callRemote("hewks:add", 1000000);
         break;
 
