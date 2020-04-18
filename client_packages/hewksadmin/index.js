@@ -17,12 +17,11 @@ ui.Close();
 actions.forEach((action, index) => {
   ui.AddItem(new UIMenuItem(action.text));
 });
-
 ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
     switch (item.Text) {
       case actions[0].text:
-        mp.events.callRemote("hewks_addMoney", [2500]);
+        mp.events.callRemote("hewks_addMoney", 5000);
         break;
 
       default:
