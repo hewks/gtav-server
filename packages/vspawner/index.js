@@ -25,5 +25,5 @@ mp.events.add("vspawner_Spawn", (player, vehicle) => {
         player.vspawner_Vehicle = mp.vehicles.new(mp.joaat(vehicle), position, {heading: player.heading, numberPlate: player.name, dimension: player.dimension});
     }
 
-    player.putIntoVehicle(player.vspawner_Vehicle, 0);
+    //player.putIntoVehicle(player.vspawner_Vehicle, 0);
 });
