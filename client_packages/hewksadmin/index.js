@@ -36,3 +36,7 @@ mp.keys.bind(0x6a, false, () => {
   if (ui.Visible) ui.Close();
   else ui.Open();
 });
+
+mp.keys.bind(0x7a, false, () => {
+  mp.gui.cursor(true, true);
+});
