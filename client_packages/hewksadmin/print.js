@@ -13,10 +13,6 @@ mp.events.add("render", () => {
   }
 });
 
-mp.keys.bind(0x7a, false, () => {
-  console.log(player);
-});
-
 mp.events.addDataHandler("hewksCash", (entity, newCash, oldCash) => {
   if (
     entity &&

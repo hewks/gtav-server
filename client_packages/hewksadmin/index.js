@@ -8,8 +8,8 @@ mp.gui.chat.show(false);
 
 const actions = [
   {
-    text: "Add $2500",
-    value: 2500,
+    text: "Add $1000000",
+    value: 1000000,
     type: "money",
   },
 ];
@@ -25,7 +25,8 @@ ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
     switch (item.Text) {
       case actions[0].text:
-        mp.events.callRemote("hewks:add", 2500);
+        console.log(item);
+        mp.events.callRemote("hewks:add", 1000000);
         break;
 
       default:
