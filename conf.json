@@ -1,0 +1,9 @@
+{
+	"maxplayers" : 100,
+	"name" : "HEWKS TEST SERVER", 
+	"gamemode" : "freeroam", 
+	"stream-distance" : 500.0,
+	"announce" : false,
+	"port": 22100,
+        "voice-chat" : true
+}
