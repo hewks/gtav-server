@@ -28,6 +28,6 @@ mp.events.add("vspawner_Spawn", (player, vehicle) => {
       dimension: player.dimension,
     });
   }
-
+  console.log("hola");
   //player.putIntoVehicle(player.vspawner_Vehicle, 0);
 });
