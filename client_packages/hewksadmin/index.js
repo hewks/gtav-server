@@ -10,6 +10,13 @@ mp.gui.chat.show(false);
 
 const ui = new Menu("Admin", "Hewks", new Point(50, 50));
 ui.AddItem(new UIMenuItem("List Item"));
+ui.AddItem(new UIMenuItem("List Item 2"));
+ui.AddItem(new UIMenuItem("List Item3"));
+ui.AddItem(new UIMenuItem("List Item4"));
+ui.AddItem(new UIMenuItem("List Item5"));
+ui.AddItem(new UIMenuItem("List Item6"));
+ui.AddItem(new UIMenuItem("List Item7"));
+ui.AddItem(new UIMenuItem("List Item8"));
 
 ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
@@ -18,11 +25,6 @@ ui.ItemSelect.on((item) => {
 });
 
 mp.keys.bind(0x6a, false, () => {
-  if (ui.Visible) {
-    ui.Close();
-    mp.gui.cursor.show(false, false);
-  } else {
-    ui.Open();
-    mp.gui.cursor.show(true, true);
-  }
+  if (ui.Visible) ui.Close();
+  else ui.Open();
 });
