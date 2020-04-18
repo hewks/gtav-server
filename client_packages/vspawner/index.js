@@ -36,7 +36,6 @@ mainMenu.Visible = false;
 mainMenu.ItemSelect.on((item, index) => {
   if (index === maxCategory) {
     let model = getUserInput(32);
-    console.log(model);
     if (model.length > 0) {
       if (!mp.game.streaming.isModelAVehicle(mp.game.joaat(model))) {
         mp.gui.chat.push("Entered model was not a vehicle model.");
@@ -98,7 +97,6 @@ mainMenu.AddItem(
 
 // f4 key - toggle menu visibility
 mp.keys.bind(0x73, false, () => {
-  console.log("VSpawner on menu");
   if (curCategory > -1) {
     categoryMenus[curCategory].Visible = !categoryMenus[curCategory].Visible;
   } else {
