@@ -2,9 +2,11 @@
 
 mp.events.add({
   "hewks:add": (player, amount) => {
+    player.__hewksCash += amount;
     console.log("Amount:" + player.__hewksCash);
   },
   "hewks:remove": (player, amount) => {
+    player.__hewksCash -= amount;
     console.log("Amount:" + player.__hewksCash);
   },
 });
