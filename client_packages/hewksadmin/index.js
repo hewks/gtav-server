@@ -1,13 +1,13 @@
-// const NativeUI = require("nativeui");
-// const Menu = NativeUI.Menu;
-// const UIMenuItem = NativeUI.UIMenuItem;
-// const Point = NativeUI.Point;
+const NativeUI = require("nativeui");
+const Menu = NativeUI.Menu;
+const UIMenuItem = NativeUI.UIMenuItem;
+const Point = NativeUI.Point;
 
 // const actions = ["Money $2500"];
 
 // // main menu
-// let mainMenu = new Menu("Hewks Admin", "", new Point(950, 300));
-// mainMenu.Visible = false;
+let mainMenu = new Menu("Hewks Admin", "", new Point(950, 300));
+mainMenu.Visible = true;
 
 // mainMenu.ItemSelect.on((item, index) => {
 //   console.log("Hola admin");
