@@ -2,16 +2,15 @@
 
 mp.events.add({
   "hewks:add": (player, amount) => {
-    player.__hewksCash += amount;
-    console.log("Amount:" + player.__hewksCash);
+    const current = player.getVariable("hewksCash");
+    console.log("Current: " + current);
   },
   "hewks:remove": (player, amount) => {
-    player.__hewksCash -= amount;
-    console.log("Amount:" + player.__hewksCash);
+    const current = player.getVariable("hewksCash");
+    console.log("Current: " + current);
   },
 });
 
 mp.events.add("playerJoin", (player) => {
-  player.__hewksCash = 10000;
-  console.log(player.__hewksCash);
+  player.setVariable("hewksCash", 10000);
 });
