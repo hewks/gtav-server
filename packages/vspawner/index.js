@@ -15,6 +15,7 @@ mp.events.add("playerQuit", (player) => {
 
 mp.events.add("vspawner_Spawn", (player, vehicle) => {
   let position = xyInFrontOfPos(player.position, player.heading, 3.0);
+  console.log("cara culo");
 
   if (player.vspawner_Vehicle) {
     player.vspawner_Vehicle.repair();
@@ -28,6 +29,5 @@ mp.events.add("vspawner_Spawn", (player, vehicle) => {
       dimension: player.dimension,
     });
   }
-  console.log("cara culo");
   //player.putIntoVehicle(player.vspawner_Vehicle, 0);
 });
