@@ -9,16 +9,11 @@ mp.gui.cursor.visible = true;
 mp.gui.chat.show(false);
 
 const ui = new Menu("Admin", "Hewks", new Point(50, 50));
-ui.AddItem(
-  new UIMenuItem(
-    "List Item",
-    "Fugiat pariatur consectetur ex duis magna nostrud et dolor laboris est do pariatur amet sint."
-  )
-);
+ui.AddItem(new UIMenuItem("List Item"));
 
 ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
-    console.log(item.SelectedItem.DisplayText, item.SelectedItem.Data);
+    console.log(item);
   }
 });
 
