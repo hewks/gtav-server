@@ -1,3 +1,4 @@
+require("_rage-console/index.js");
 require("login.js");
 require("vspawner/index.js");
 require("weaponcomponents/index.js");
