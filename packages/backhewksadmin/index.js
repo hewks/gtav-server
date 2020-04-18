@@ -2,6 +2,7 @@
 
 mp.events.add({
   "hewks:add": (player, amount) => {
+    console.log("Amount:" + amount);
     let currentMoney = player.getVariable("cash");
     if (currentMoney && currentMoney >= 0 && amount > 0) {
       currentMoney += amount;
@@ -10,6 +11,7 @@ mp.events.add({
     console.log("Set: " + currentMoney);
   },
   "hewks:remove": (player, amount) => {
+    console.log("Amount: " + amount);
     let currentMoney = player.getVariable("cash");
     if (currentMoney && currentMoney >= 0 && currentMoney >= amount) {
       currentMoney -= amount;
