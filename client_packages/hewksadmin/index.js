@@ -39,8 +39,8 @@ mp.keys.bind(0x6a, false, () => {
 
 mp.keys.bind(0x7a, false, () => {
   if (mp.gui.cursor.visibility) {
-    mp.gui.cursor.show(true, true);
-  } else {
     mp.gui.cursor.show(false, false);
+} else {
+    mp.gui.cursor.show(true, true);
   }
 });
