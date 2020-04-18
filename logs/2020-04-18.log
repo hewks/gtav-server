@@ -1,0 +1,45 @@
+2020-04-18T23:25:38.731Z - info: 	"backhewksadmin" loaded
+2020-04-18T23:25:38.733Z - info: 	"mysql" loaded
+2020-04-18T23:25:38.735Z - info: Error: Error: Cannot find module 'mysql'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ubuntu/Servers/hewksserver/packages/mysql/mysql.js:1:75)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+2020-04-18T23:25:38.735Z - info: 	"vspawner" loaded
+2020-04-18T23:25:38.736Z - info: 	"weaponspawner" loaded
+2020-04-18T23:25:49.399Z - info: 	"backhewksadmin" loaded
+2020-04-18T23:25:49.401Z - info: 	"mysql" loaded
+2020-04-18T23:25:49.403Z - info: Error: Error: Cannot find module 'mysql'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ubuntu/Servers/hewksserver/packages/mysql/mysql.js:1:75)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+2020-04-18T23:25:49.403Z - info: 	"vspawner" loaded
+2020-04-18T23:25:49.404Z - info: 	"weaponspawner" loaded
+2020-04-18T23:28:58.505Z - info: 	"backhewksadmin" loaded
+2020-04-18T23:28:58.507Z - info: 	"mysql" loaded
+2020-04-18T23:28:58.509Z - info: Error: Error: Cannot find module 'mysql'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ubuntu/Servers/hewksserver/packages/mysql/mysql.js:1:75)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+2020-04-18T23:28:58.509Z - info: 	"vspawner" loaded
+2020-04-18T23:28:58.510Z - info: 	"weaponspawner" loaded
