@@ -5,7 +5,7 @@ const UIMenuListItem = NativeUI.UIMenuListItem;
 const Point = NativeUI.Point;
 const ItemsCollection = NativeUI.ItemsCollection;
 
-mp.gui.cursor.show(true, true);
+mp.gui.cursor.visibility = false;
 mp.gui.chat.show(false);
 
 const ui = new Menu("Admin", "Hewks", new Point(50, 50));
@@ -18,6 +18,11 @@ ui.ItemSelect.on((item) => {
 });
 
 mp.keys.bind(0x6a, false, () => {
-  if (ui.Visible) ui.Close();
-  else ui.Open();
+  if (ui.Visible) {
+    ui.Close();
+    mp.gui.cursor.show(false, false);
+  } else {
+    ui.Open();
+    mp.gui.cursor.show(true, true);
+  }
 });
