@@ -1,2 +1,5 @@
 #!/bin/bash
-./server
+git pull origin master
+sudo systemctl restart rageserv
+journalctl -u rageserv -f
+
