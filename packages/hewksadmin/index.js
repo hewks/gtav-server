@@ -1,5 +1,7 @@
-//const currency = require("../currency-api");
+const currency = require("../currency-api");
 
-mp.events.add("hewks:addMoney", (player, total) => {
+let addMoney = (player, total) => {
   console.log("Add " + total + " to: " + player.name);
-});
+};
+
+mp.events.add("hewks", addMoney);
