@@ -1,5 +1,6 @@
 const NativeUI = require("nativeui");
 const Menu = NativeUI.Menu;
+const UIMenuItem = NativeUI.UIMenuItem;
 const UIMenuListItem = NativeUI.UIMenuListItem;
 const Point = NativeUI.Point;
 const ItemsCollection = NativeUI.ItemsCollection;
@@ -9,15 +10,14 @@ mp.gui.chat.show(false);
 
 const ui = new Menu("Admin", "Hewks", new Point(50, 50));
 ui.AddItem(
-  new UIMenuListItem(
+  new UIMenuItem(
     "List Item",
-    "Fugiat pariatur consectetur ex duis magna nostrud et dolor laboris est do pariatur amet sint.",
-    new ItemsCollection(["Item 1", "Item 2", "Item 3"])
+    "Fugiat pariatur consectetur ex duis magna nostrud et dolor laboris est do pariatur amet sint."
   )
 );
 
 ui.ItemSelect.on((item) => {
-  if (item instanceof UIMenuListItem) {
+  if (item instanceof UIMenuItem) {
     console.log(item.SelectedItem.DisplayText, item.SelectedItem.Data);
   }
 });
