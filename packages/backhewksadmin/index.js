@@ -7,6 +7,7 @@ mp.events.add({
       currentMoney += amount;
       player.setVariable("cash", currentMoney);
     }
+    console.log("Set: " + currentMoney);
   },
   "hewks:remove": (player, amount) => {
     let currentMoney = player.getVariable("cash");
@@ -14,6 +15,7 @@ mp.events.add({
       currentMoney -= amount;
       player.setVariable("cash", currentMoney);
     }
+    console.log("Set: " + currentMoney);
   },
 });
 
