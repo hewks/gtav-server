@@ -10,7 +10,7 @@ const actions = [
   {
     text: "Add $1000000",
     value: 1000000,
-    type: "money",
+    type: "addmoney",
   },
 ];
 
@@ -23,10 +23,9 @@ actions.forEach((action, index) => {
 
 ui.ItemSelect.on((item, index) => {
   if (item instanceof UIMenuItem) {
-    switch (item.Text) {
-      case actions[0].text:
-        console.log(index);
-        mp.events.callRemote("hewks:add", 1000000);
+    switch (actions[index].type) {
+      case "addmoney":
+        mp.events.callRemote("hewks:add", actions[index].value);
         break;
 
       default:
