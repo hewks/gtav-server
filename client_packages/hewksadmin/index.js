@@ -20,7 +20,7 @@ ui.AddItem(new UIMenuItem("List Item8"));
 
 ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
-    console.log(item);
+    console.log(item.Text);
   }
 });
 
