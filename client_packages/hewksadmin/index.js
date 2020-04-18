@@ -3,8 +3,6 @@ const Menu = NativeUI.Menu;
 const UIMenuItem = NativeUI.UIMenuItem;
 const Point = NativeUI.Point;
 
-require("./print");
-
 mp.gui.cursor.visibility = false;
 mp.gui.chat.show(false);
 
@@ -23,11 +21,11 @@ actions.forEach((action, index) => {
   ui.AddItem(new UIMenuItem(action.text));
 });
 
-ui.ItemSelect.on((item, index) => {
+ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
-    switch (actions[index].type) {
-      case "money":
-        mp.events.callRemote("hewks:add", actions[index].value);
+    switch (item.Text) {
+      case actions[0].text:
+        mp.events.callRemote("hewks:add", 2500);
         break;
 
       default:
