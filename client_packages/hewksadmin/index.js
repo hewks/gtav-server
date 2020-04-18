@@ -6,8 +6,8 @@ const Point = NativeUI.Point;
 // const actions = ["Money $2500"];
 
 // // main menu
-let mainMenu = new Menu("Hewks Admin", "", new Point(950, 300));
-mainMenu.Visible = true;
+//let mainMenu = new Menu("Hewks Admin", "", new Point(950, 300));
+//mainMenu.Visible = true;
 
 // mainMenu.ItemSelect.on((item, index) => {
 //   console.log("Hola admin");
