@@ -2,12 +2,17 @@ const NativeUI = require("nativeui");
 const Menu = NativeUI.Menu;
 const UIMenuItem = NativeUI.UIMenuItem;
 const Point = NativeUI.Point;
+
+require("./print");
+
 mp.gui.cursor.visibility = false;
 mp.gui.chat.show(false);
 
 const actions = [
   {
     text: "Add $2500",
+    value: 2500,
+    type: "money",
   },
 ];
 
@@ -17,11 +22,12 @@ ui.Close();
 actions.forEach((action, index) => {
   ui.AddItem(new UIMenuItem(action.text));
 });
-ui.ItemSelect.on((item) => {
+
+ui.ItemSelect.on((item, index) => {
   if (item instanceof UIMenuItem) {
-    switch (item.Text) {
-      case actions[0].text:
-        mp.events.callRemote("hewks_addMoney", 5000);
+    switch (actions[index].type) {
+      case "money":
+        mp.events.callRemote("hewks:add", actions[index].value);
         break;
 
       default:
