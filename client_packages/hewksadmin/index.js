@@ -8,19 +8,30 @@ const ItemsCollection = NativeUI.ItemsCollection;
 mp.gui.cursor.visibility = false;
 mp.gui.chat.show(false);
 
+const actions = [
+  {
+    text: "Add $2500",
+  },
+];
+
 const ui = new Menu("Admin", "Hewks", new Point(50, 50));
-ui.AddItem(new UIMenuItem("List Item"));
-ui.AddItem(new UIMenuItem("List Item 2"));
-ui.AddItem(new UIMenuItem("List Item3"));
-ui.AddItem(new UIMenuItem("List Item4"));
-ui.AddItem(new UIMenuItem("List Item5"));
-ui.AddItem(new UIMenuItem("List Item6"));
-ui.AddItem(new UIMenuItem("List Item7"));
-ui.AddItem(new UIMenuItem("List Item8"));
+ui.Close();
+
+actions.forEach((action, index) => {
+  ui.AddItem(new UIMenuItem(action));
+});
 
 ui.ItemSelect.on((item) => {
   if (item instanceof UIMenuItem) {
-    console.log(item.Text);
+    switch (item.Text) {
+      case actions[0].text:
+        console.log("Add money");
+        break;
+
+      default:
+        console.log("Perra");
+        break;
+    }
   }
 });
 
