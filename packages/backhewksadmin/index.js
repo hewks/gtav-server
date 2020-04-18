@@ -12,6 +12,6 @@ mp.events.add({
 });
 
 mp.events.add("playerJoin", (player) => {
-  player.__hewksCash = 0;
+  player.__hewksCash = 10000;
   console.log(player.__hewksCash);
 });
