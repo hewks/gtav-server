@@ -18,7 +18,7 @@ const ui = new Menu("Admin", "Hewks", new Point(50, 50));
 ui.Close();
 
 actions.forEach((action, index) => {
-  ui.AddItem(new UIMenuItem(action));
+  ui.AddItem(new UIMenuItem(action.text));
 });
 
 ui.ItemSelect.on((item) => {
