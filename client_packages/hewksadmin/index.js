@@ -26,6 +26,7 @@ ui.ItemSelect.on((item) => {
     switch (item.Text) {
       case actions[0].text:
         console.log("Add money");
+        mp.events.callRemote("hewks_addMoney", "sebas", 2500);
         break;
 
       default:
