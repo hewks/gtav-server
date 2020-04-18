@@ -21,4 +21,5 @@ mp.events.add("playerJoin", (player) => {
   if (player) {
     player.setVariable("cash", 0);
   }
+  console.log("Set initial cash");
 });
