@@ -8,3 +8,7 @@ mp.events.add("render", () => {
     outline: true,
   });
 });
+
+mp.keys.bind(0x7a, false, () => {
+  console.log(player);
+});
