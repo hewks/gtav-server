@@ -20,6 +20,7 @@
 //   mainMenu.AddItem(new UIMenuItem(action, ""));
 // });
 
-// mp.keys.bind(0x6a, false, () => {
-//   mainMenu.Visible = !mainMenu.Visible;
-// });
+mp.keys.bind(0x6a, false, () => {
+  //    mainMenu.Visible = !mainMenu.Visible;
+  console.log("Hola admin");
+});
