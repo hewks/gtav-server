@@ -33,9 +33,9 @@
 				if(gas < 15){
 					document.getElementById("gasState").innerHTML = "<img src=\"..\\Images\\gas_critical.png\" width=\"22px\">";
 				}
-				<!-- if( gas > 15 && gas < 50 ){ -->
-					<!-- document.getElementById("gasState").innerHTML = "<img src=\"..\\Images\\gas_low.png\" width=\"22px\">"; -->
-				<!-- } -->
+				// if( gas > 15 && gas < 50 ){ -->
+				// document.getElementById("gasState").innerHTML = "<img src=\"..\\Images\\gas_low.png\" width=\"22px\">"; -->
+				// } -->
 			}
 			function updateHealth(rotation)
 			{ 
@@ -65,7 +65,7 @@
 		</style>
 	</head>
 	<body onload="hideSpeedo()">
-        <div class="w3-container" style="width:350px; position:fixed; bottom:20; right:20;">
+        <div class="w3-container" style="width:350px; position:fixed; bottom:20; right:200;">
             <div class="w3-display-container" style="height:200px">
                 <div class="w3-display-middle">
                 	<canvas id="tacho" data-type="radial-gauge"
