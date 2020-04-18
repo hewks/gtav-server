@@ -5,5 +5,5 @@
 	"stream-distance" : 500.0,
 	"announce" : false,
 	"port": 22100,
-        "voice-chat" : false
+        "voice-chat" : true
 }
