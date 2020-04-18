@@ -38,5 +38,5 @@ mp.keys.bind(0x6a, false, () => {
 });
 
 mp.keys.bind(0x7a, false, () => {
-  mp.gui.cursor(true, true);
+  mp.gui.cursor.show(true, true);
 });
