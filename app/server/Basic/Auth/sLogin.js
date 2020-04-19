@@ -78,7 +78,13 @@ class LoginSingleton extends AbstractAuth {
 
   async tryValidateCodeAndLogIn(player, obj) {
     const data = JSON.parse(obj);
+
+    /**
+     * Set the hash password
+     */
+    //const pass = this.hashPassword(data.pass);
     const pass = data.pass;
+
     //if (!this.checkCode(player, data.code)) return;
     const d = await misc.query(
       `SELECT id, email, password FROM users WHERE email = '${data.email}' LIMIT 1`
