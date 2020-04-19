@@ -27,7 +27,7 @@ class AbstractAuth {
     //const cipher = crypto.createCipher('aes192', 'a pass');
     //let encrypted = cipher.update(str, 'utf8', 'hex');
     //encrypted += cipher.final('hex');
-    return encrypted;
+    return str;
   }
 
   canCheckCode(player) {
