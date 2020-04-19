@@ -133,3 +133,63 @@
     at Function.Module._load (internal/modules/cjs/loader.js:536:3)
 2020-04-18T23:36:28.248Z - info: 	"vspawner" loaded
 2020-04-18T23:36:28.249Z - info: 	"weaponspawner" loaded
+2020-04-18T23:40:35.948Z - info: 	"backhewksadmin" loaded
+2020-04-18T23:40:35.951Z - info: 	"mysql" loaded
+2020-04-18T23:40:35.952Z - info: Error: Error: Cannot find module 'mysql'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ubuntu/Servers/hewksserver/packages/mysql/mysql.js:1:75)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+2020-04-18T23:40:35.953Z - info: 	"vspawner" loaded
+2020-04-18T23:40:35.953Z - info: 	"weaponspawner" loaded
+2020-04-18T23:43:26.485Z - info: 	"backhewksadmin" loaded
+2020-04-18T23:43:26.487Z - info: 	"mysql" loaded
+2020-04-18T23:43:26.489Z - info: Error: Error: Cannot find module 'mysql'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ubuntu/Servers/hewksserver/packages/mysql/mysql.js:1:75)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+2020-04-18T23:43:26.489Z - info: 	"vspawner" loaded
+2020-04-18T23:43:26.490Z - info: 	"weaponspawner" loaded
+2020-04-18T23:45:58.324Z - info: 	"backhewksadmin" loaded
+2020-04-18T23:45:58.326Z - info: 	"mysql" loaded
+2020-04-18T23:45:58.328Z - info: Error: Error: Cannot find module 'mysql'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ubuntu/Servers/hewksserver/packages/mysql/mysql.js:1:75)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+2020-04-18T23:45:58.328Z - info: 	"vspawner" loaded
+2020-04-18T23:45:58.329Z - info: 	"weaponspawner" loaded
+2020-04-18T23:49:24.612Z - info: 	"backhewksadmin" loaded
+2020-04-18T23:49:24.615Z - info: 	"mysql" loaded
+2020-04-18T23:49:24.616Z - info: Error: Error: Cannot find module 'mysql'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/ubuntu/Servers/hewksserver/packages/mysql/mysql.js:1:75)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+2020-04-18T23:49:24.617Z - info: 	"vspawner" loaded
+2020-04-18T23:49:24.618Z - info: 	"weaponspawner" loaded
