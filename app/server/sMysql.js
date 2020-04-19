@@ -4,9 +4,9 @@ const mysql = require("mysql");
 
 const connection =  mysql.createPool({
 	host			:	"localhost",       
-	user			: 	"root",
-	password		: 	"",
-	database		:	"rpserver",
+	user			: 	"gtavadmin",
+	password		: 	"159753",
+	database		:	"gtav",
 });
 
 // NOTE! all mysql queries here is unsecure! You should wrap all the data with connection.escape(data);

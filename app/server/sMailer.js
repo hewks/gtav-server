@@ -12,7 +12,7 @@ class MailerSingletone {
             service: 'gmail',
             auth: {
                 user: 'mail@gmail.com',
-                pass: 'pass'
+                pass: ''
             },
             tls:{
                 rejectUnauthorized: false

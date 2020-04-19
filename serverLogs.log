@@ -1,0 +1,11 @@
+[2020-04-19T01:11:49.785] [FATAL] default - Server Started
+[2020-04-19T01:11:49.880] [DEBUG] default - Orange Collector : [object Object]
+[2020-04-19T01:11:49.882] [DEBUG] default - Maria Collector : [object Object]
+[2020-04-19T01:11:50.009] [ERROR] default - SELECT * FROM vehicles WHERE factionName = 'Hospital'
+[2020-04-19T01:11:50.011] [ERROR] default - SELECT * FROM business INNER JOIN barbershop ON business.id = barbershop.id
+[2020-04-19T01:11:50.015] [ERROR] default - SELECT * FROM business INNER JOIN clothingshop ON business.id = clothingshop.id
+[2020-04-19T01:11:50.018] [ERROR] default - SELECT * FROM business INNER JOIN cheapcardealership ON business.id = cheapcardealership.id
+[2020-04-19T01:11:50.020] [ERROR] default - SELECT * FROM business INNER JOIN commercialcardealership ON business.id = commercialcardealership.id
+[2020-04-19T01:11:50.022] [ERROR] default - SELECT * FROM business INNER JOIN gasstation ON business.id = gasstation.id
+[2020-04-19T01:12:43.210] [ERROR] default - SELECT id, email, password, socialclub FROM users WHERE email = 'romerosanti99.mr@gmail.com' LIMIT 1
+[2020-04-19T01:12:43.705] [ERROR] default - SELECT id, email, password, socialclub FROM users WHERE email = 'romerosanti99.mr@gmail.com' LIMIT 1
