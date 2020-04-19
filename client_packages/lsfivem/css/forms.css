@@ -1,0 +1,826 @@
+
+    @font-face {
+      font-family: 'LSFIVEMGTA';
+      src: url('../fonts/pricedown.ttf');
+    }
+
+    @font-face {
+      font-family: 'Helvetica';
+      src: url('../fonts/lsfivem.ttf');
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Oswald');
+
+    body {
+      background: transparent !important;
+    }
+
+    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+      color: #fff;
+      background-color: none;
+      border-color: none;
+      outline: none;
+    }
+
+    .logo_login {
+      position: absolute;
+      margin-top: 13vh;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .logo_global {
+      position: absolute;
+      margin-top: 1vh;
+      margin-left: 82%;
+    }
+
+    #help_active
+    {
+      background: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      margin-top: 51vh;
+      padding: 20px;;
+      overflow: hidden;
+      font-size: 16px;
+      color: #fff;
+      font-family: "House";
+      z-index: 0;
+    }
+
+		#info_form
+		{
+			position: absolute;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 29vh;
+			width: 30%;
+			background: #fff;
+			padding: 20px;;
+			cursor: default;
+			z-index: 0;
+			font-size: 22px;
+		}
+
+		#login_form
+		{
+			position: absolute;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 29vh;
+			width: 30%;
+			background: #fff;
+			padding: 20px;;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+    #login_form .register {
+
+    }
+
+		#login_form .nav-tabs {
+			border-bottom: 1px solid #169eab;
+		}
+
+		#login_form .nav-tabs>li {
+			float: none;
+			display: inline-block;
+			margin-bottom: -1px !important;
+		}
+
+		#login_form .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+			font-family: "Helvetica Light";
+			border: none;
+			background: #169eab !important;
+			color: #fff;
+		}
+
+		#login_form a {
+		}
+
+		#login_form a:hover {
+			background: none;
+			border-color: #169eab;
+		}
+
+		#character_form
+		{
+			position: absolute;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 29vh;
+			width: 30%;
+			background: #fff;
+			padding: 20px;;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#character_form_create
+		{
+			position: absolute;
+			margin-left: 65%;
+			margin-right: 5%;
+			margin-top: 25vh;
+			width: 30%;
+			background: #fff;
+			padding: 20px;;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#store_form_clothes
+		{
+			position: absolute;
+			margin-left: 65%;
+			margin-right: 5%;
+			margin-top: 25vh;
+			width: 30%;
+			background: #fff;
+			padding: 20px;;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+    #rent_form
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #webplayer_form
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #alogin_form
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #drugs_form
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+		#mainmenu_form
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#mainmenu_form .m_menu
+		{
+			margin-top: 5px;
+			margin-bottom: 5px;
+			background: #169eab;
+			color: #fff;
+			width: 100%;
+			padding: 20px;;
+			text-align: center;
+			font-size: 34px;
+		}
+
+    #mainmenu_form_settings
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      cursor: default;
+      text-align: center;
+      z-index: 0;
+    }
+
+		#mainmenu_form_stats_1
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 20vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			cursor: default;
+			z-index: 0;
+		}
+
+		#mainmenu_form_stats_1 h1 {
+			text-align: center;
+		}
+
+		#mainmenu_form_stats_1 table {
+			background: #169eab;
+			color: #fff;
+		}
+
+		#mainmenu_form_stats_1 table td {
+			border-color: #fff;
+			border-bottom: 1px solid;
+			padding: 10px;
+		}
+
+		#mainmenu_form_stats_2
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#mainmenu_form_stats_2 h1 {
+			text-align: center;
+		}
+
+		#mainmenu_form_stats_2 table {
+			background: #169eab;
+			color: #fff;
+		}
+
+		#mainmenu_form_stats_2 table td {
+			border-color: #fff;
+			border-bottom: 1px solid;
+			padding: 20px;
+		}
+
+		#mainmenu_form_helper
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+    #mainmenu_form_donate
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #ad_form
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #npanel_form
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #npanel_form .n_menu
+    {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background: #169eab;
+      color: #fff;
+      width: 100%;
+      padding: 20px;;
+      text-align: center;
+      font-size: 34px;
+    }
+
+    #npanel_form .n_menu
+    {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background: #169eab;
+      color: #fff;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      font-size: 34px;
+    }
+
+    #gun_panel_police
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 23vh;
+      width: 40%;
+      padding: 10px;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #gun_panel_police .g2_menu
+    {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background: #169eab;
+      color: #fff;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    #calls_form .c_menu
+    {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background: #169eab;
+      color: #fff;
+      width: 100%;
+      padding: 20px;;
+      text-align: center;
+      font-size: 34px;
+    }
+
+    #npanel_form_ads
+    {
+      background: white;
+      position: absolute;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 29vh;
+      width: 40%;
+      padding: 20px;;
+      overflow: auto;
+      border-radius: 0px;
+      z-index: 0;
+    }
+
+    #npanel_form_ads table
+    {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-radius: 0px;
+      display: inline-block;
+      height: 250px;
+      overflow: auto;
+      z-index: 0;
+    }
+
+    #npanel_form_ads table th
+    {
+      padding: 10px;
+      z-index: 0;
+    }
+
+    #npanel_form_ads table td
+    {
+      padding: 10px;
+      z-index: 0;
+    }
+
+		#calls_form
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#calls_form .c_menu
+		{
+			margin-top: 5px;
+			margin-bottom: 5px;
+			background: #169eab;
+			color: #fff;
+			width: 100%;
+			padding: 20px;;
+			text-align: center;
+			font-size: 34px;
+		}
+
+		#calls_form_about_taxi
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#calls_form_about_police
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#idcard_form_stats_1
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#idcard_form_stats_1 h1 {
+			text-align: center;
+		}
+
+		#idcard_form_stats_1 table {
+			background: #169eab;
+			color: #fff;
+		}
+
+		#idcard_form_stats_1 table td {
+			border-color: #fff;
+			border-bottom: 1px solid;
+			padding: 20px;
+		}
+
+		#house_form
+		{
+			background: white;
+			position: absolute;
+			margin-left: 30%;
+			margin-right: 30%;
+			margin-top: 29vh;
+			width: 40%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#house_form h1 {
+			text-align: center;
+		}
+
+		#house_form .h_menu
+		{
+			margin-top: 5px;
+			margin-bottom: 5px;
+			background: #169eab;
+			color: #fff;
+			width: 100%;
+			padding: 20px;;
+			text-align: center;
+			font-size: 34px;
+		}
+
+		#control_object
+		{
+			background: white;
+			position: absolute;
+			margin-left: 70%;
+			margin-right: 10%;
+			margin-top: 55vh;
+			width: 20%;
+			padding: 20px;;
+			overflow: auto;
+			border-radius: 0px;
+			z-index: 0;
+		}
+
+		#control_object .selector
+		{
+			display: inline-block;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			background: #169eab;
+			color: #fff;
+			width: 42%;
+			margin-left: 10px;
+			margin-right: 10px;
+			padding: 20px;;
+			text-align: center;
+			font-size: 34px;
+		}
+
+		#speedometr_form
+		{
+			background: rgba(0, 0, 0, 0.3);
+			color: #fff;
+			position: absolute;
+			margin-right: 10%;
+			margin-top: 65vh;
+			width: 15%;
+			padding: 20px;;
+			overflow: auto;
+			z-index: 0;
+		}
+
+		#speedometr_form h2
+		{
+			margin: 0;
+			padding: 0;
+			font-family: "LSFIVEMGTA";
+			text-align: center;
+			font-size: 34px;
+			text-transform: uppercase;
+		}
+
+    .stats_game_block {
+      position: absolute;
+      margin-left: 80%;
+      width: 20%;
+      margin-top: 13vh;
+    }
+
+    .money {
+      text-align: center;
+      font-family: 'LSFIVEMGTA';
+      color: #5ef28a;
+      font-size: 32px;
+      text-shadow:
+        -0   -2px 0   #000000,
+         0   -2px 0   #000000,
+        -0    2px 0   #000000,
+         0    2px 0   #000000,
+        -2px -0   0   #000000,
+         2px -0   0   #000000,
+        -2px  0   0   #000000,
+         2px  0   0   #000000,
+        -1px -2px 0   #000000,
+         1px -2px 0   #000000,
+        -1px  2px 0   #000000,
+         1px  2px 0   #000000,
+        -2px -1px 0   #000000,
+         2px -1px 0   #000000,
+        -2px  1px 0   #000000,
+         2px  1px 0   #000000,
+        -2px -2px 0   #000000,
+         2px -2px 0   #000000,
+        -2px  2px 0   #000000,
+         2px  2px 0   #000000,
+        -2px -2px 0   #000000,
+         2px -2px 0   #000000,
+        -2px  2px 0   #000000,
+         2px  2px 0   #000000;
+    }
+
+    .hungry {
+      text-align: center;
+      font-family: 'LSFIVEMGTA';
+      color: #f48c42;
+      font-size: 32px;
+      text-shadow:
+        -0   -2px 0   #000000,
+         0   -2px 0   #000000,
+        -0    2px 0   #000000,
+         0    2px 0   #000000,
+        -2px -0   0   #000000,
+         2px -0   0   #000000,
+        -2px  0   0   #000000,
+         2px  0   0   #000000,
+        -1px -2px 0   #000000,
+         1px -2px 0   #000000,
+        -1px  2px 0   #000000,
+         1px  2px 0   #000000,
+        -2px -1px 0   #000000,
+         2px -1px 0   #000000,
+        -2px  1px 0   #000000,
+         2px  1px 0   #000000,
+        -2px -2px 0   #000000,
+         2px -2px 0   #000000,
+        -2px  2px 0   #000000,
+         2px  2px 0   #000000,
+        -2px -2px 0   #000000,
+         2px -2px 0   #000000,
+        -2px  2px 0   #000000,
+         2px  2px 0   #000000;
+    }
+
+@media screen and (max-width: 1400px) {
+
+  .logo_login {
+    margin-top: 12vh;
+  }
+
+  .logo_global {
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 79%;
+  }
+
+  .stats_game_block {
+    margin-left: 80%;
+    width: 20%;
+    margin-top: 14vh;
+  }
+
+  .money {
+    font-size: 26px;
+  }
+
+  .hungry {
+    font-size: 26Spx;
+  }
+
+  #mainmenu_form
+  {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 25vh;
+    width: 30%;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 0px;
+    z-index: 0;
+  }
+
+  #mainmenu_form .m_menu
+  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #169eab;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  #mainmenu_form_settings
+  {
+    background: white;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 29vh;
+    width: 40%;
+    padding: 20px;
+    overflow: auto;
+    cursor: default;
+    text-align: center;
+    z-index: 0;
+  }
+
+  #mainmenu_form_stats_1
+  {
+    background: white;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 8vh;
+    width: 40%;
+    padding: 20px;
+    overflow: auto;
+    cursor: default;
+    z-index: 0;
+  }
+
+  #mainmenu_form_stats_1 h1 {
+    text-align: center;
+  }
+
+  #mainmenu_form_stats_1 table {
+    background: #169eab;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  #mainmenu_form_stats_1 table td {
+    border-color: #fff;
+    border-bottom: 1px solid;
+    padding: 10px;
+  }
+
+  #mainmenu_form_stats_2
+  {
+    background: white;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 29vh;
+    width: 40%;
+    padding: 20px;;
+    overflow: auto;
+    border-radius: 0px;
+    z-index: 0;
+  }
+
+  #mainmenu_form_stats_2 h1 {
+    text-align: center;
+  }
+
+  #mainmenu_form_stats_2 table {
+    background: #169eab;
+    color: #fff;
+  }
+
+  #mainmenu_form_stats_2 table td {
+    border-color: #fff;
+    border-bottom: 1px solid;
+    padding: 20px;
+  }
+
+  #login_form #auth_active_form_testing h3 {
+    font-size: 12px;
+  }
+
+  #login_form #auth_active_form_testing label {
+    font-size: 10px;
+  }
+
+}

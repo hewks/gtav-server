@@ -1,0 +1,11 @@
+Build for 04 April 2018 year
+
+https://vk.com/tellarion
+
+https://rage.mp/profile/394-tellarion/
+
+Notes
+
+This build without sql data, generate yourself (see struct.js and loaders files)
+
+Thank you. I do not sell builds my gameserver (new), only old verison for demonstration RAGE-MP platform. Special for RAGE-MP Community.

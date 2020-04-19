@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/checkbox.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+		<!-- init css form -->
+		<link href="http://lsfivem.com/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/theme.css" rel="stylesheet" media="screen">
+    <script src="http://lsfivem.com/js/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<style>
+
+		@font-face {
+			font-family: 'LSFIVEMGTA';
+			src: url('fonts/pricedown.ttf');
+		}
+
+		@font-face {
+			font-family: 'Helvetica';
+			src: url('fonts/lsfivem.ttf');
+		}
+
+
+		@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+		body {
+			background: transparent;
+		}
+
+		.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+	    color: #fff;
+	    background-color: none;
+	    border-color: none;
+	    outline: none;
+		}
+
+		#kill_active
+		{
+			position: absolute;
+			margin-top: 15vh;
+			margin-left: 80%;
+			overflow: hidden;
+			color: #fff;
+			font-family: "House";
+			z-index: 0;
+		}
+
+		#gang_active
+		{
+			position: absolute;
+			width: 100%;
+			overflow: hidden;
+			color: #fff;
+			font-family: "LSFIVEMGTA";
+			z-index: 0;
+		}
+
+		#gang_active2
+		{
+			display: inline-block;
+			text-align: center;
+			width: 100%;
+			overflow: hidden;
+			font-family: "LSFIVEMGTA";
+			z-index: 0;
+		}
+
+		#gang_active2 h1
+		{
+			font-family: "LSFIVEMGTA";
+			font-size: 32px !important;
+			text-shadow:
+				-0   -2px 0   #000000,
+				 0   -2px 0   #000000,
+				-0    2px 0   #000000,
+				 0    2px 0   #000000,
+				-2px -0   0   #000000,
+				 2px -0   0   #000000,
+				-2px  0   0   #000000,
+				 2px  0   0   #000000,
+				-1px -2px 0   #000000,
+				 1px -2px 0   #000000,
+				-1px  2px 0   #000000,
+				 1px  2px 0   #000000,
+				-2px -1px 0   #000000,
+				 2px -1px 0   #000000,
+				-2px  1px 0   #000000,
+				 2px  1px 0   #000000,
+				-2px -2px 0   #000000,
+				 2px -2px 0   #000000,
+				-2px  2px 0   #000000,
+				 2px  2px 0   #000000,
+				-2px -2px 0   #000000,
+				 2px -2px 0   #000000,
+				-2px  2px 0   #000000,
+				 2px  2px 0   #000000;
+			color: #fff;
+			z-index: 0;
+		}
+
+		#gang_active3
+		{
+			display: inline-block;
+			text-align: center;
+			width: 100%;
+			overflow: hidden;
+			z-index: 0;
+		}
+
+		#gang_active3 h1
+		{
+			margin-top: -7px;
+			font-size: 48px !important;
+			color: #fff;
+			font-family: "LSFIVEMGTA";
+			text-shadow:
+				-0   -2px 0   #000000,
+				 0   -2px 0   #000000,
+				-0    2px 0   #000000,
+				 0    2px 0   #000000,
+				-2px -0   0   #000000,
+				 2px -0   0   #000000,
+				-2px  0   0   #000000,
+				 2px  0   0   #000000,
+				-1px -2px 0   #000000,
+				 1px -2px 0   #000000,
+				-1px  2px 0   #000000,
+				 1px  2px 0   #000000,
+				-2px -1px 0   #000000,
+				 2px -1px 0   #000000,
+				-2px  1px 0   #000000,
+				 2px  1px 0   #000000,
+				-2px -2px 0   #000000,
+				 2px -2px 0   #000000,
+				-2px  2px 0   #000000,
+				 2px  2px 0   #000000,
+				-2px -2px 0   #000000,
+				 2px -2px 0   #000000,
+				-2px  2px 0   #000000,
+				 2px  2px 0   #000000;
+			z-index: 0;
+		}
+
+		#scoreboard_form
+		{
+			position: absolute;
+			background: #fff;
+			margin-left: 25%;
+			margin-right: 25%;
+			margin-top: 29vh;
+			width: 50%;
+			padding: 20px;
+			overflow: scroll;
+			border-radius: 0px;
+			z-index: 0;
+			height: 500px;
+		}
+
+		#scoreboard_online {
+			font-size: 24px;
+			background: #fff;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		#scoreboard_form table {
+			background: #fff;
+		}
+
+		@media screen and (max-width: 1400px) {
+			#scoreboard_form
+			{
+				margin-top: 25vh;
+				width: 60%;
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+		}
+
+		</style>
+
+		<audio id="player" type="audio/ogg" сontrols="controls">
+		</audio>
+
+		<div id="gang_active" style="display:none">
+			<div id="gang_active2"><h1><span style="padding: 20px;"><font color="white"><span id="timewar"></span></font></span></h1></div>
+			<div id="gang_active3"><h1><span style="padding: 20px;"><font color="green"><span id="counter1">0</span></font> : <font color="purple"><span id="counter2">0</span></font></span></h1></div>
+		</div>
+
+		<div id="kill_list" style="display:block">
+			<p></p>
+		</div>
+
+		<div id="scoreboard_form" style="display:none">
+			<div id="scoreboard_online" style="text-align: center;">Игроков онлайн: <span id="onliner">N/A</span></div>
+			<table id="score_players" class='table text-center'>
+				<th>#</th><th>Имя_Фамилия</th><th>Проживает в городе</th><th>Организация</th><th>Пинг</th>
+			</table>
+		</div>
+
+		<script>
+
+		//var audio = document.createElement('audio');
+		//audio.src = "http://185.58.204.232:8000/evolve.ogg";
+		//audio.type = "audio/ogg";
+		//audio.autoplay = true;
+		//audio.play();
+
+		function show_gang_war(count1, count2, timer) {
+			$("#gang_active").fadeIn(1000);
+			$('#counter1').html(count1);
+			$('#counter2').html(count2);
+			$('#timewar').html(timer);
+		}
+
+		function close_gang_war(count1, count2, timer) {
+			$("#gang_active").fadeOut(1000);
+			$('#counter1').html(' ');
+			$('#counter2').html(' ');
+			$('#timewar').html(' ');
+		}
+
+		var mainmenu_open = 0;
+
+		$("html").keydown(function(e) {
+
+				if(e.which == 8) {
+					if(mainmenu_open === 1) {
+						mp.trigger('showMainMenu', 2);
+						mainmenu_open = 0;
+					}
+
+					if(othermenu_open === 1) {
+						$('#idcard_form_stats_1').fadeOut(1000);
+						$('#house_form').fadeOut(1000);
+						mp.trigger('cefData', 'chat', 2);
+						mp.invoke("focus", false);
+					}
+				}
+
+		});
+
+		let centered = true;
+
+		document.addEventListener('keydown', function(e) {
+    	if (e.key === 'F5' || e.keyCode === 116) {
+		  	$('#scoreboard_form').css('display', 'block');
+				mp.trigger('cefData', 'chat', 1);
+				mp.invoke("focus", true);
+		  }
+		});
+
+		document.addEventListener('keyup', function(e) {
+	    if (e.key === 'F5' || e.keyCode === 116) {
+	    	$('#scoreboard_form').css('display', 'none');
+				mp.trigger('cefData', 'chat', 2);
+				mp.invoke("focus", false);
+	    }
+		});
+
+		function addTab(text, online) {
+
+	    let formated = text.replace(/\n/g, '').replace(/"/g, '"');
+
+	    $('#scoreboard_form #score_players').append(text);
+			$('#onliner').html(online);
+		}
+
+		function clearTab() {
+				$('#score_players').html("<th>#</th><th>Имя_Фамилия</th><th>Проживает в городе</th><th>Организация</th><th>Пинг</th>");
+		}
+
+		</script>
+	</body>
+
+</html>
