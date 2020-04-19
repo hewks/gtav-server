@@ -1,7 +1,7 @@
 "use strict";
 
 var fs = require('fs');
-var configure = require('../configure.js');
+var configure = require('./configure.js');
 
 let logger = module.exports;
 

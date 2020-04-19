@@ -5,9 +5,8 @@ let fraction = module.exports;
 fraction.get_name = function(fraction) {
   switch(parseInt(fraction)) {
     case 0: fraction = "-"; break;
-    case 1: fraction = "Army Fort-Zancudo"; break;
+    case 1: fraction = "Army Fort-Zancyndo"; break;
     case 2: fraction = "Los Santos Police Department"; break;
-    case 3: fraction = "Weazel News"; break;
   }
   return fraction;
 }
@@ -54,30 +53,20 @@ fraction.get_rang = function(fraction, fraction_rang) {
         case 1: fraction_rang = "Police Officer I"; break;
         case 2: fraction_rang = "Police Officer II"; break;
         case 3: fraction_rang = "Police Officer III"; break;
-        case 4: fraction_rang = "Police Officer III+1"; break;
-        case 5: fraction_rang = "Sergeant I"; break;
-        case 6: fraction_rang = "Sergeant II"; break;
-        case 7: fraction_rang = "Detective I"; break;
-        case 8: fraction_rang = "Detective II"; break;
-        case 9: fraction_rang = "Detective III"; break;
-        case 10: fraction_rang = "Lieutenant I"; break;
-        case 11: fraction_rang = "Lieutenant II"; break;
-        case 12: fraction_rang = "Captain I"; break;
-        case 13: fraction_rang = "Captain II"; break;
-        case 14: fraction_rang = "Captain III"; break;
-        case 15: fraction_rang = "Commander"; break;
-        case 16: fraction_rang = "Deputy Chief I"; break;
-        case 17: fraction_rang = "Deputy Chief II"; break;
-        case 18: fraction_rang = "Chief of Police"; break;
-      }
-    } break;
-    case 3: {
-      switch(parseInt(fraction_rang)) {
-        case 1: fraction_rang = "Staff"; break;
-        case 2: fraction_rang = "Editor"; break;
-        case 3: fraction_rang = "Broadcaster"; break;
-        case 4: fraction_rang = "Technical Director"; break;
-        case 5: fraction_rang = "Director"; break;
+        case 4: fraction_rang = "Sergeant I"; break;
+        case 5: fraction_rang = "Sergeant II"; break;
+        case 6: fraction_rang = "Detective I"; break;
+        case 7: fraction_rang = "Detective II"; break;
+        case 8: fraction_rang = "Detective III"; break;
+        case 9: fraction_rang = "Lieutenant I"; break;
+        case 10: fraction_rang = "Lieutenant II"; break;
+        case 11: fraction_rang = "Captain I"; break;
+        case 12: fraction_rang = "Captain II"; break;
+        case 13: fraction_rang = "Captain III"; break;
+        case 14: fraction_rang = "Commander"; break;
+        case 15: fraction_rang = "Deputy Chief I"; break;
+        case 16: fraction_rang = "Deputy Chief II"; break;
+        case 17: fraction_rang = "Chief of Police"; break;
       }
     } break;
   }

@@ -2,28 +2,32 @@
 
 let mysql = module.exports;
 
-console.log('[PR] Mysql connect to base...');
+console.log('Prepare mysql connect to base...');
 
 var mysql2 = require('mysql');
 
 mysql.connection = mysql2.createConnection({
-    host     : '',
-    user     : '',
-    password : '',
-    database : ''
+    host     : 'localhost',
+    user     : 'root',
+    password : 'password',
+    database : 'lsfivem_server'
 });
 
 mysql.connection.connect(function(err) {
+	console.log(err);
     if(err) {
-      console.log("[ERR] Connecting to the database...");
+      console.log("Error connecting to the database...");
       throw err;
     } else {
-      console.log('[OK] Datebase connected!');
+      console.log('Database connected!');
       mysql.connection.query('UPDATE persons SET g_online = ?', [0], function (error, results, fields) {
-        console.log('[OK] Online stats refresh!');
+        console.log(error);
+        console.log('Online stats refresh!');
       });
     }
-});
+  });
+
+console.log('Loaded mysql data...');
 
 /*
 

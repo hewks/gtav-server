@@ -540,11 +540,7 @@ vehicle_f.vehicle_dict['starling'] = 2594093022;
 vehicle_f.vehicle_dict['seabreeze'] = 3902291871;
 vehicle_f.vehicle_dict['tula'] = 1043222410;
 vehicle_f.vehicle_dict['vigilante'] = 3052358707;
-vehicle_f.vehicle_dict['visione'] = 3296789504;2174267100
-vehicle_f.vehicle_dict['vaz2106'] = 3306466016;
-vehicle_f.vehicle_dict['entityxxr'] = 2174267100;
-vehicle_f.vehicle_dict['ellie'] = 3027423925;
-vehicle_f.vehicle_dict['michelli'] = 1046206681;
+vehicle_f.vehicle_dict['visione'] = 3296789504;
 
 vehicle_f.getVehicleName = function(modelid) {
 	let vehiclename = "";

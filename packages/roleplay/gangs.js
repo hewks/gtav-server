@@ -5,7 +5,7 @@ let gang = module.exports;
 gang.get_name = function(gname) {
   switch(parseInt(gname)) {
     case 0: gname = "-"; break;
-    case 1: gname = "The Grove Street Gang"; break;
+    case 1: gname = "The Groove Street Gang"; break;
     case 2: gname = "The Ballas Gang"; break;
   }
   return gname;
