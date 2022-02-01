@@ -1,12 +1,4 @@
 
-Report this ad
-1 Answer
-order by 
-votes
-Up vote
-2
-Down vote
-Accepted
 You can read file on remote side as sequence of byte arrays, stream them thru remoting, and then assemble them back to file locally:
 
 function DownloadSingleFile {
